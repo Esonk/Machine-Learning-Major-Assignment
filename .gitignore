@@ -6,6 +6,8 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+_report_render/
+.ipynb格式代码/
 
 .DS_Store
 Thumbs.db

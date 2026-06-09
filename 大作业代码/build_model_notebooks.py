@@ -51,7 +51,7 @@ def add_common_cells(cells: list, item: dict) -> None:
 
 {item['description']}
 
-本 Notebook 是 2.3 乳腺癌良恶性分类实验的单模型实现。实验使用 PyTorch 完成，不使用 scikit-learn；数据清洗、分层划分、标准化、指标计算和模型训练逻辑来自同目录下的 `breast_cancer_core.py`。
+本 Notebook 是 2.3 乳腺癌良恶性分类实验的单模型实现。实验使用 PyTorch 完成；数据清洗、分层划分、标准化、指标计算和模型训练逻辑来自同目录下的 `breast_cancer_core.py`。
 """
     )
 

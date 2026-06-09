@@ -1,6 +1,6 @@
 # 2.3 乳腺癌良恶性分类（PyTorch）
 
-本项目基于 Kaggle Breast Cancer Wisconsin 数据集，使用 PyTorch 对乳腺癌样本进行良性/恶性二分类。项目严格不使用 scikit-learn，数据划分、标准化、模型训练、指标计算和可视化均由 PyTorch、NumPy、Pandas、Matplotlib、Seaborn 完成。
+本项目基于 Kaggle Breast Cancer Wisconsin 数据集，使用 PyTorch 对乳腺癌样本进行良性/恶性二分类。数据划分、标准化、模型训练、指标计算和可视化均由 PyTorch、NumPy、Pandas、Matplotlib、Seaborn 完成。
 
 ## 项目结构
 
@@ -12,6 +12,10 @@
 │  ├─ breast_cancer_core.py
 │  ├─ train_models.py
 │  ├─ predict_one.py
+│  ├─ LinearClassifier.py
+│  ├─ ShallowMLP.py
+│  ├─ DeepMLP.py
+│  ├─ FeatureCNN1D.py
 │  ├─ breast_cancer_pytorch.ipynb
 │  ├─ LinearClassifier（线性分类器）.ipynb
 │  ├─ ShallowMLP（浅层多层感知机）.ipynb
