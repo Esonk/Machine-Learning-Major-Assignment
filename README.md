@@ -12,9 +12,17 @@
 │  ├─ breast_cancer_core.py
 │  ├─ train_models.py
 │  ├─ predict_one.py
-│  └─ breast_cancer_pytorch.ipynb
+│  ├─ breast_cancer_pytorch.ipynb
+│  ├─ LinearClassifier（线性分类器）.ipynb
+│  ├─ ShallowMLP（浅层多层感知机）.ipynb
+│  ├─ DeepMLP（深层多层感知机）.ipynb
+│  └─ FeatureCNN1D（一维卷积网络）.ipynb
 ├─ html格式
-│  └─ breast_cancer_pytorch.html
+│  ├─ breast_cancer_pytorch.html
+│  ├─ LinearClassifier（线性分类器）.html
+│  ├─ ShallowMLP（浅层多层感知机）.html
+│  ├─ DeepMLP（深层多层感知机）.html
+│  └─ FeatureCNN1D（一维卷积网络）.html
 ├─ 结果图
 ├─ results
 ├─ README.md
@@ -29,6 +37,8 @@
 2. ShallowMLP：一层隐藏层多层感知机
 3. DeepMLP：加入 BatchNorm 和 Dropout 的深层多层感知机
 4. FeatureCNN1D：将 30 个表格特征作为一维序列输入的一维卷积网络
+
+`breast_cancer_pytorch.ipynb` 是四个模型的总览对比 Notebook；另外 4 个单模型 Notebook 分别展示每个模型的完整训练、评估和预测过程。
 
 ## 运行方式
 
