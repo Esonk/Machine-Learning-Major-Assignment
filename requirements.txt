@@ -1,0 +1,8 @@
+torch==2.5.1
+pandas==2.2.3
+numpy==2.0.1
+matplotlib==3.9.4
+seaborn==0.13.2
+notebook==7.3.2
+nbconvert==7.16.6
+ipykernel==6.29.5
